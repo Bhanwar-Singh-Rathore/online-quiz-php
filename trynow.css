@@ -1,0 +1,259 @@
+body{
+    /* background-color:
+    #f2f2f2;  gray color that i need */
+}
+
+
+
+.navbarmain {
+    /* border-bottom: 1px solid black; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+.joinnowbtn{
+    border: 1px solid #23b63e;
+}
+#loginbtn{
+    background-color:#23b63e;
+    border: 1px solid white;
+
+}
+
+
+
+
+.navbarmain ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 50px;
+}
+
+
+.navbarmain ul li{
+    margin-right: 10px;
+
+}
+
+.navbarmain ul li button{
+  
+    padding-left: 32px;
+padding-right:32px ;
+padding-top: 7px;
+padding-bottom: 7px;
+background-color: transparent;
+border-radius: 10px;
+border: 1px solid black;
+font-size: larger;
+
+}
+
+.navbarmain ul li button:hover{
+   
+    background-color: #e1f1ff;
+}
+
+.h h1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.main_search_bar {
+    margin-left: 100px;
+    margin-right: 100px;
+  
+    display: flex;
+    justify-content: center;
+   
+}
+.main_search_bar input{
+    height: 70px;
+    width: 1100px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(225, 221, 221);
+    border:  1px solid whitesmoke ;
+}
+.flexoficon{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.icon-below-searchbar{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: grid;
+grid-template-columns: repeat(8,1fr);
+grid-template-rows: repeat(1,1fr);
+/* background-color: black; */
+height: 150px;
+row-gap: 10px;
+column-gap: 10px;
+
+}
+.item1{
+    /* background-color: aqua; */
+  width: 117px;
+  transition: all 800ms ease-in-out ;
+}
+.item1 img{
+    background-image: url();
+    width: 85px;
+    height: 85px;
+    margin-top: 20px;
+    
+}
+.item1 h4{
+    margin-top: -2px;
+    font-weight: 500;
+    text-align:center;
+    transition: all 800ms  ease-in-out;
+}
+
+
+
+/* .item1:hover img{
+    scale: 1.1;
+} */
+.item1:hover{
+    scale: 1.1;
+}
+.item1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.feed-quiz-container{
+    /* display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* background-color: aqua; */
+    
+    display: flex ;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+.quiz-container{
+   
+    width: 220px;
+  
+    /* background-color: black; */
+    box-shadow: 0 4px 8px 0 rgb(225, 221, 221);
+    border-radius: 7px;
+
+}
+.quiz-container img{
+height:200px ;
+width:220px ;
+border-radius: 7px;
+
+}
+.quiz-container h4{
+    font-weight: 400;
+    font-size: larger;
+}
+.quiz-container h6{
+    font-weight: 300;
+
+}
+.quiz-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.search{ 
+    margin-right: 200px;
+    
+}
+
+.search input{
+ 
+    margin-top: 5px;
+    /* margin-right: 650px; */
+    height: 35px;
+    width: 300px;
+    border-radius: 7px;
+
+}
+#act{
+    margin-right: 800px;
+    margin-left: 5px;
+    text-decoration: none;
+   font-size: larger;
+   font-size: larger;
+   font-weight: 500;
+}
+.home{
+  margin-left: 5px;
+    text-decoration: none;
+   font-size: larger;
+   font-size: larger;
+   font-weight: 500;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.feed-quiz-container2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* background-color: aqua; */
+   
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 100px;
+}
+
+.heading_text{
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+.hidden {
+    display: none;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  
+    background-color: white;
+    padding: 4rem;
+ 
+    border-radius: 7px;
+    box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    /* backdrop-filter: blur(3px); */
+    z-index: 5;
+  }
+  

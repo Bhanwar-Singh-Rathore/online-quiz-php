@@ -1,0 +1,371 @@
+.navbarmain {
+    /* border-bottom: 1px solid black; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color: #ffffff;
+}
+
+.btn-group{
+  position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color: #ffffff;
+}
+
+.navbarmain ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 50px; 
+    
+}
+
+
+.navbarmain ul li{
+  margin-right: 10px;
+  margin-top: 10px;
+
+}
+
+.navbarmain ul li button{
+  
+  padding-left: 40px;
+  padding-right:40px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+background-color: transparent;
+border-radius: 10px;
+
+font-size: larger;
+
+}
+
+.navbarmain ul li button:hover{
+   
+    background-color:#23b63e;
+}
+.joinnowbtn{
+    border: 1px solid #23b63e;
+    
+}
+#loginbtn{
+    background-color:#23b63e;
+    border: 1px solid white;
+
+}
+
+
+.joinnowbtn1{
+
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #23b63e;
+}
+#loginbtn1{
+ 
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #23b63e;
+
+
+}
+#loginbtn2{
+  margin-right: 400px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #23b63e;
+
+
+}
+/* 
+.main-page-image{
+    /* display: grid;
+   
+    height: 600px;
+    width: 1300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 20px;
+    column-gap: 20px; */
+ 
+
+
+/* .main-page-butons{
+    background-color: black;
+}
+
+.item{
+    background-color: black;
+    height: 122px;
+    width: 122px;
+}
+
+.item1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+
+/* .main{
+    display: grid; 
+      
+    height: 600px;
+    width: 1300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr); */
+    /* row-gap: 20px;
+    column-gap: 20px;  */
+
+/* .main img{
+    width: 1300px;
+    height: 600px;
+    border-radius: 10px;
+} */
+
+
+.text-tag{
+    margin-top: 100px;
+    font-size :2px;
+   text-align: center;
+   color: #212121;
+   font-family: Poppins, sans-serif;
+
+
+   
+
+   
+}
+.text-tag span{
+     
+/*    
+ color: rgb(45, 157, 166); */
+ color: #23b63e;
+ font-family: Poppins, sans-serif;
+ font-weight: 800;
+ font-size :50px;
+
+
+}
+.text-tag h6{
+    margin-top: -3px;
+    color: gray;
+}
+.text-tag h1{
+  
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size :45px;
+}
+
+.main-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main-button button{
+    padding-left: 40px;
+    padding-right:40px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #23b63e;
+    /* background-color: white; */
+   
+    /* border: 1px solid black; */
+    
+    font-size: larger;
+    margin-right: 20px;
+    box-shadow:  0 5px 0 0 #f2f2f2;
+   transition: 0.3s ease-in-out;
+   border-radius: 8px;
+   background-color: white;
+   border: 1px solid rgb(0, 0, 0);
+   border: 1px white;
+  
+}
+#signup{
+    background-color: #23b63e;
+    box-shadow:  0 5px 0 0 #23b63e;
+    transition: 0.3s ease-in-out;
+}
+#signup:hover{
+    box-shadow:  0 0px 0 0#23b63e;
+
+
+}
+
+
+.main-button button:hover{
+    box-shadow:  0 0px 0 0 #d6d6d6;
+    
+}
+
+.video{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+   
+    border:  1px solid white;
+}
+.video video{
+    width: 1500px;
+}
+.btn-text{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    margin-top: 20px;
+}
+.textmain{
+
+    
+
+ margin-top: -50px;
+ font-size: 50px;
+    text-align: center;
+    font-weight: 300;
+    font-family: Poppins, sans-serif; 
+}
+.text2{
+    margin-top: -500;
+ color: #efa929;
+ font-family: Poppins, sans-serif;
+ font-size: 70px;
+ font-weight: 300;
+}
+.text1{
+    margin-bottom: -10px;
+    font-size: 70px;
+    font-weight: 300;
+}
+/*footer*/
+#footer {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    height: 200px;
+    padding: 50px 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  #footer ul li {
+    color: white;
+    list-style: none;
+    margin: 30px 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  #footer ul li a:hover {
+    color: #ff4321;
+  }
+  
+  .social-links {
+    margin-left: 80%;
+  margin-top: -100px;
+  }
+  
+  .social-links a {
+    font-size: 30px;
+    color: #606163;
+    margin-right: 20px;
+  }
+  
+  .social-links a:hover {
+    color: #ff4321;
+  }
+  /* Benefits */
+  .benefit-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 80px;
+  }
+  
+  .benefit {
+    border: 1px solid #ccc;
+    padding: 16px 16px 32px 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 150px;
+  }
+  
+  .benefit .icon {
+    color: #ff4321;
+    font-size: 64px;
+  }
+  
+  .benefit h4 {
+    margin-bottom: 5px;
+  }
+  
+  .benefit .text {
+    font-size: 24px;
+    color: #777;
+  }
+  
+  #footer ul li {
+    margin-left: -100px;
+  }
+  .sociallinks {
+    border-radius: 5px;
+    height: 30px;
+  }
+
+  .main{
+   color: blue;
+   display: none;
+
+  }
+
+/* bootstrap =--------------------------------------------------------------- */
+.dropdownbtn{
+  margin-left: 100px;
+  border: 1px solid transparent;
+  /* background-color: #23b63e; */
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #23b63e;
+}
+
+.dropdownbtn2 {
+  margin-left: 20px;
+  border: 1px solid transparent;
+  /* background-color: #23b63e; */
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-left: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  color: #23b63e;
+}

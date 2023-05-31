@@ -1,0 +1,222 @@
+.maths-quiz-container{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    box-shadow: 0 2px 4px 0 rgb(225, 221, 221);
+    height: 350px;
+
+    row-gap: 12px;
+    column-gap: 12px;
+    /* margin-left: 300px; */
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.items1{
+/* background-color: aqua; */
+}
+
+.items2{
+    /* background-color: aqua; */
+grid-column-start: 2;
+grid-column-end:5;
+width: 1000PX;
+
+}
+.items1 img{
+    margin-top: 50PX;
+    margin-left: 100PX;
+}
+.items2 h1{
+margin-top: 50PX;
+font-size: 3rem;
+font-weight: 700;
+
+}
+.items2 h2{
+
+    font-size: 2rem;
+    font-weight: 500;
+    
+ }
+
+    .quiz-selector-button{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+       grid-template-rows: repeat(1,1fr);
+       /* background-color: rgb(17, 12, 12); */
+       height: 150px;
+       margin-left: 100px;
+       margin-right: 100px;
+       margin-top: 100px;
+margin-bottom: 100px;   
+box-shadow: 0 4px 8px 0 rgb(225, 221, 221);
+border-radius: 7px;
+    }
+    .selector-button button:hover{
+        cursor:pointer;
+    }
+.selector-button{
+    margin-top: 60px;
+    
+}
+.selector-button button{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+   
+    padding-bottom: 20px;
+    border-radius: 7px;
+    /* padding: 16px 24px; */
+    border: 1px  white;
+ 
+    color: rgba(255,255,255);
+    font-weight: 500;
+    font-size:medium;
+}
+#geometry-button button{
+    background-color: #00a06a;
+    margin-top: -10px;
+    box-shadow: 0 4px 0 #303533;
+}
+#probability-button button{
+  
+    box-shadow: 0 4px 0 #17565a;
+    background-color: #00a06a;
+    margin-left: 15px;
+    margin-right: -100px;
+    margin-top: -10px;
+}
+#arithmetic-button button{
+    margin-top: -10px;
+    background-color: #cc5314;
+     box-shadow: 0 4px 0 #8a3a0e;
+     margin-left: 30px;
+
+}
+#Algebra-button button{
+    margin-top: 0px;
+    margin-top: -10px;
+    margin-left: 50px;
+    background-color: rgba(154,66,146);
+    box-shadow: 0 4px 0 rgb(63, 28, 60);
+padding-left: 45px;
+padding-right: 45px;
+}
+
+#trigonometry-button button{
+    box-shadow: 0 4px 0 rgb(15, 6, 6);
+    background-color: rgb(72, 38, 69);
+    margin-top: -10px;
+}
+.margin{
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* background-color: aqua; */
+   
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+
+}
+
+
+/*footer*/
+#footer {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    min-height: 50vh;
+    padding: 50px 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #footer ul li {
+    color: white;
+    list-style: none;
+    margin: 30px 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  #footer ul li a:hover {
+    color: #ff4321;
+  }
+  
+  .social-links {
+    margin-left: 8%;
+    margin-top: 100px;
+  }
+  
+  .social-links a {
+    font-size: 30px;
+    color: #606163;
+    margin-right: 20px;
+  }
+  
+  .social-links a:hover {
+    color: #ff4321;
+  }
+  /* Benefits */
+  .benefit-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 80px;
+  }
+  
+  .benefit {
+    border: 1px solid #ccc;
+    padding: 16px 16px 32px 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 150px;
+  }
+  
+  .benefit .icon {
+    color: #ff4321;
+    font-size: 64px;
+  }
+  
+  .benefit h4 {
+    margin-bottom: 5px;
+  }
+  
+  .benefit .text {
+    font-size: 24px;
+    color: #777;
+  }
+  
+  #footer ul li {
+    margin-left: -100px;
+  }
+  .sociallinks {
+    border-radius: 5px;
+    height: 30px;
+  }
+
+  .main{
+   color: blue;
+   display: none;
+
+  }
